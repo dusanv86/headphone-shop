@@ -1,0 +1,39 @@
+*,
+::before,
+::after {
+  box-sizing: inherit;
+  padding: 0;
+  margin: 0; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  box-sizing: border-box; }
+
+.header {
+  height: 90vh;
+  width: 100%;
+  padding: 3rem 12rem;
+  background-image: linear-gradient(to right, #DFE3EB 0%, #DFE3EB 33%, #EBEFF7 33%, #EBEFF7 100%); }
+  .header .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+  .header .menu {
+    display: flex;
+    list-style: none; }
+    .header .menu__item {
+      margin-right: 2rem;
+      font-size: 1.8rem;
+      text-transform: uppercase; }
+      .header .menu__item a {
+        text-decoration: none;
+        font-family: 'Karla', sans-serif;
+        font-weight: 700;
+        color: #656565; }
+  .header .icon {
+    display: flex;
+    list-style: none; }
+    .header .icon__item {
+      margin-right: 2rem; }

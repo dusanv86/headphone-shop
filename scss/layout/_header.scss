@@ -1,0 +1,45 @@
+.header {
+    height: 90vh;
+    width: 100%;
+    padding: 3rem 12rem;
+    background-image: linear-gradient(
+        to right,
+        $color-background-dark 0%,
+        $color-background-dark 33%,
+        $color-background-light 33%,
+        $color-background-light 100%
+    );
+
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .menu {
+        display: flex;
+        list-style: none;
+
+        &__item {
+            margin-right: 2rem;
+            font-size: 1.8rem;
+            text-transform: uppercase;
+            
+            a {
+                text-decoration: none;
+                font-family: 'Karla', sans-serif;
+                font-weight: 700;
+                color: $color-text-darkgray;
+            }
+        }
+    }
+
+    .icon {
+        display: flex;
+        list-style: none;
+
+        &__item {
+            margin-right: 2rem;
+        }
+    }
+}
