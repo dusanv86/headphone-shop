@@ -5,13 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet'>
+    <link href="http://fonts.cdnfonts.com/css/roboto" rel="stylesheet">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <link rel="stylesheet" href="css/style.css">
     <title>Headphones shop</title>
@@ -21,11 +18,11 @@
         <nav class="navbar">
             <div class="logo"><img src="images/logo.png" alt=""></div>
             <ul class="menu">
-                <li class="menu__item"><a href="#">Početna</a></li>
-                <li class="menu__item"><a href="#">Proizvodi</a></li>
-                <li class="menu__item"><a href="#">Rasprodaja</a></li>
-                <li class="menu__item"><a href="#">Akcija</a></li>
-                <li class="menu__item"><a href="#">Kontakt</a></li>
+                <li class="menu__item"><a class="menu__link" href="#">Početna</a></li>
+                <li class="menu__item"><a class="menu__link" href="#">Proizvodi</a></li>
+                <li class="menu__item"><a class="menu__link" href="#">Rasprodaja</a></li>
+                <li class="menu__item"><a class="menu__link" href="#">Akcija</a></li>
+                <li class="menu__item"><a class="menu__link" href="#">Kontakt</a></li>
             </ul>    
             <ul class="icon">
                 <li class="icon__item"><a href="#"><img src="images/magnifier.svg" alt=""></a></li>
@@ -33,6 +30,236 @@
                 <li class="icon__item"><a href="#"><img src="images/hamb.svg" alt=""></a></li>
             </ul>  
         </nav>
+
+        <div class="product">
+            <div class="imglist">
+                <div class="imglist__item">
+                    <a href="#"><img src="images/headphones1.png" alt=""></a>
+                </div>
+                <div class="imglist__item">
+                    <a href="#"><img src="images/headphones2.png" alt=""></a>
+                </div>
+                <div class="imglist__item">
+                    <a href="#"><img src="images/headphones3.png" alt=""></a>
+                </div>
+                <div class="imglist__item">
+                    <a href="#"><img src="images/headphones4.png" alt=""></a>
+                </div>
+            </div>
+            <div class="imglarge">
+                <img class="imglarge__image" src="images/headphoneslarge.png" alt="">
+            </div>
+            <div class="description">
+                <div class="description__ratings ">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                </div>
+                <div class="description__text">
+                    <h1>A18 Wireless headset</h1>
+                    <p class="description__text--p">Large-size earmuffs that could never cover the whole ears, 
+                        paired with thick, soft earmuffscan make it comfortable to 
+                        immerse in music for a long time.</p>
+                </div>        
+                <div class="price">    
+                    <p class="price__amount">41,99 KM</p>
+                    <div class="quantity">
+                        <button class="quantity__btn">-</button>
+                        <input class="quantity__input" type="" placeholder="1">
+                        <button class="quantity__btn">+</button>
+                    </div>
+                </div> 
+                <div class="btn-group">   
+                    <a href="#" class="btn-orange">Kupi</a>
+                    <a href="#" class="btn-transparent">Dodaj u korpu</a>
+                </div>
+                <div class="description__productinfo">
+                    <div class="description__productinfo--usercount">
+                        <img src="images/user.svg" alt=""><p>Trenutno 18 osoba gleda ovaj proizvod.</p>
+                    </div>
+                    <div class="description__productinfo--availability">
+                        <img src="images/surface1.svg" alt=""><p>Proizvod je dostupan na lageru.</p>
+                    </div>    
+                </div>
+            </div>
+
+            <div class="sociallinks">
+                <img src="images/fb.svg" alt="">
+                <img src="images/ig.svg" alt="">
+                <img src="images/in.svg" alt="">
+            </div>
+
+        </div>
     </section>
+
+    <section class="section2">
+        <div class="specs">
+            <div class="specs__heading">
+                <a href=""><h3>OPIS</h3></a>
+                <a href=""><h3>SPECIFIKACIJE</h3></a>
+                <a href=""><h3>OSTALO</h3></a>
+            </div>
+            <div class="specs__text">
+                <p>
+                   Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                   Temporibus corrupti totam officia libero amet excepturi similique fugiat, 
+                   minima suscipit doloribus inventore deserunt quia eaque animi, repellat numquam facere sit debitis.
+                </p>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                    Voluptate ex magnam obcaecati molestias consequuntur quia.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Nulla unde earum quasi, eius tenetur nisi ducimus aliquam maiores quod velit praesentium, 
+                    cupiditate iusto, veniam blanditiis. Tenetur praesentium mollitia in voluptates?
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section3">
+        <div class="container">
+            <h2>Iskoristiti momente uživanja, <br> na pravi način</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae quod dolor quidem. 
+                Dignissimos rem aut, quia laborum possimus harum maxime delectus optio perspiciatis a dolorem neque. 
+                Inventore distinctio, quos commodi voluptate autem sapiente aut repudiandae ex, 
+                ducimus repellendus illo ea quae non totam tempora dolorem dignissimos earum provident aspernatur placeat!</p>
+            <div class="btn-group">   
+                <a href="#" class="btn-orange">Kupi</a>
+                <a href="#" class="btn-transparent">Dodaj u korpu</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="section4">
+        <div class="similar-products">
+            <div class="similar-products__heading">
+                <h2>Povezani proizvodi</h2>
+                <div class="similar-products__heading--text">    
+                    <p>Large-size earmuffs that could cover the whole ears, paired with thick, 
+                        soft earmuffscan make it comfortable to immerse in music for a long time.
+                    </p>
+                </div>
+            </div>
+            <div class="products">
+                <div class="products__item">
+                    <img src="images/casque.png" alt="">
+                    <h3>Casque Bluetooth DeFunc</h3>
+                    <p>39.99 KM</p>    
+                </div>
+                <div class="products__item">
+                    <img src="images/inkax.png" alt="">
+                    <h3>Inkax HP-07</h3> 
+                    <p>50.99 KM</p>
+                </div>
+                <div class="products__item">
+                    <img src="images/lavvento.png" alt="">
+                    <h3>L'avvento (HPO7N)</h3>
+                    <p>60.99 KM</p>
+                </div>
+                <div class="products__item">
+                    <img src="images/bltinkax.png" alt="">
+                    <h3>Bluetooth inkax HP-05</h3>
+                    <p>41.99 KM</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="order">
+        <div class="order__heading">
+            <h3>Gdje želite da Vam dostavimo proizvod?!</h3>
+        </div>
+        <div class="form-group">
+            <div class="form-group__image">
+                <img src="/images/formimg.png" alt="">
+            </div>
+            
+            <form action="">
+                <div class="form-group__form">
+                    <label class="form-group__label" for="name">Ime i prezime</label>
+                    <input class="form-group__input" type="text">
+
+                    <label class="form-group__label" for="name">Ulica i broj</label>
+                    <input class="form-group__input" type="text">
+
+                    <label class="form-group__label" for="name">Grad</label>
+                    <input class="form-group__input" type="text">
+
+                    <label class="form-group__label" for="name">Email adresa</label>
+                    <input class="form-group__input" type="email">
+
+                    <label class="form-group__label" for="name">Broj telefona</label>
+                    <input class="form-group__input" type="text">
+
+                    <label class="form-group__label" for="name">Vaša poruka / dodatne informacije</label>
+                    <input class="form-group__input form-group__input--large" type="text">
+
+                    <a href="#" class="btn-orange btn-orange--wide">Kupi</a>
+
+                    <div class="form-group__safebuy">
+                        <img src="images/safebuy.png" alt=""><p>Vaša kupovina je sigurna</p>
+                    </div>
+                </div>
+            </form>
+            
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-container__item1">
+                <div class="footer__contact">
+                    <ul class="footer__list">
+                        <li><h5>KONTAKT I PODRŠKA</h5></li>
+                        <li>Adresa: Prote Nikole Kostića bb</li>
+                        <li>Email: info@simel-bih.com</li>
+                        <li>Skype: simel-bih></li>
+                        <li>
+                            <div class="footer__contact--phone">   
+                            <img class="headphicon" src="images/headphicon.svg" alt=""><p>+387 51 535 560</p>
+                            </div>
+                        </li>    
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-container__item2">
+                <div class="footer__about">
+                    <ul class="footer__list">
+                        <li><h5>O NAMA</h5></li>
+                        <li>Dostava</li>
+                        <li>Garancija kvaliteta</li>
+                        <li>Način plaćanja</li>
+                    </ul>
+                </div>
+                <div class="footer__help">
+                    <ul class="footer__list">
+                        <li><h5>POMOĆ</h5></li>
+                        <li>Kako se registrovati</li>
+                        <li>Često postavljana pitanja</li>
+                        <li>Uslovi korištenja</li>
+                    </ul>
+                </div>
+                <div class="footer__social">
+                    <h5>SOCIJALNE MREŽE</h5>
+                    <div class="footer__social-images">
+                        <img src="images/fbsmall.svg" alt="">
+                        <img src="images/igsmall.svg" alt="">
+                        <img src="images/insmall.svg" alt="">
+                    </div>
+                    <div class="footer__social-logo">
+                        <img class="logosmall" src="images/logosmall.png" alt="">
+                    </div>    
+                </div>
+            </div>
+        </div>
+        <div class="footer__end">            
+            <p class="footer__end--p">Copyright &copy <b>NENASAL d.o.o 2020</b>All rights Reserver. Powered by <b>NENASAL</b></p>
+        </div>
+    </footer>
+
 </body>
 </html>
