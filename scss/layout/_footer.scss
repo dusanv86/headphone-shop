@@ -1,0 +1,86 @@
+.footer {
+    
+    background-color: $color-background-light;
+
+    &__list {
+        list-style: none;
+        font-family: 'Roboto', sans-serif;
+        color: $color-text-darkgray;
+       
+        li {
+            font-size: 1rem;
+            &:not(:last-child) {
+                margin-bottom: 1rem;
+            }
+        }
+    }
+
+    h5 {
+        font-family: 'Roboto', sans-serif;    
+        font-size: 1.2rem;
+        font-weight: 700;
+        color: $color-text-darkgray;
+        margin-bottom: 1rem;
+    }
+
+    
+
+    .footer-container {
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        padding: 10rem 14rem;
+
+        &__item1 {
+            width: 25%;
+            margin-right: 20rem;
+        }
+
+        &__item2 {
+            width: 55%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            
+        }
+    }
+
+    &__contact {
+        &--phone {
+            display: flex;
+            align-items: center;
+            justify-content: left;
+
+            
+            
+        }
+    }
+
+    &__social {
+        margin-left: 4rem;
+    }
+
+    &__end {
+        background-color: $color-background-dark;
+        width: 100%;
+        height: 10rem;
+        padding: 5rem 0 5rem 14rem;
+        
+        &--p {
+           font-family: 'Roboto', sans-serif;
+           font-size: 1.2rem;
+           color: $color-text-darkgray;
+        }
+    }
+    
+}
+
+.headphicon {
+    margin-right: 1rem;
+}
+
+.logosmall {
+    width: 9rem;
+    align-self: right;
+    margin-top: 1rem;
+}

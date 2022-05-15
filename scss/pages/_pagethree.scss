@@ -1,0 +1,31 @@
+.section3 {
+    background-image: url(../../images/girl.png);
+    background-size: cover;
+    background-position: top;
+    height: 88.5rem;
+    width: 100%;
+    padding: 3rem 14rem;
+    
+    .container {
+        width: 56rem;
+        margin: 24rem 31rem 23rem 60%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: left;
+
+        h2 {
+            font-family: 'Oswald', sans-serif;
+            font-weight: bold;
+            font-size: 5rem;
+            line-height: 6rem;
+            margin-bottom: 3rem;
+        }
+
+        p {
+            font-family: 'Roboto', sans-serif;
+            font-size: 1.8rem;
+            color: $color-text-darkgray;
+        }
+    }
+}
