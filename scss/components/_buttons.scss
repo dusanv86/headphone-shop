@@ -16,6 +16,11 @@
     letter-spacing: .1rem;
     display: inline-block;
 
+    @include respond(phone) {
+        margin-right: 0;
+        margin-top: 1rem;
+    }
+
     &--wide {
         width: 100%;
         margin-top: 2rem;
@@ -38,4 +43,8 @@
     letter-spacing: .1rem;
     box-shadow: 0px 2px 6px #00000029;
     display: inline-block;
+
+    @include respond(phone) {
+        margin-top: 1.5rem;
+    }
 }
