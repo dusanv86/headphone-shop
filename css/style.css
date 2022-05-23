@@ -377,25 +377,45 @@ body {
     justify-content: left;
     align-items: center;
     padding: 10rem 14rem; }
+    @media (max-width: 56.25em) {
+      .footer .footer-container {
+        flex-direction: column;
+        padding: 2rem; } }
     .footer .footer-container__item1 {
       width: 25%;
-      margin-right: 20rem; }
+      margin-right: 20rem;
+      display: flex;
+      justify-content: center; }
+      @media (max-width: 56.25em) {
+        .footer .footer-container__item1 {
+          margin-right: 0;
+          margin-bottom: 4rem;
+          font-size: 10rem; } }
     .footer .footer-container__item2 {
       width: 55%;
       display: flex;
       flex-direction: row;
       justify-content: space-around; }
+      @media (max-width: 56.25em) {
+        .footer .footer-container__item2 {
+          width: 80%; } }
   .footer__contact--phone {
     display: flex;
     align-items: center;
     justify-content: left; }
   .footer__social {
     margin-left: 4rem; }
+    @media (max-width: 56.25em) {
+      .footer__social {
+        margin-left: 0; } }
   .footer__end {
     background-color: #DFE3EB;
     width: 100%;
-    height: 10rem;
     padding: 5rem 0 5rem 14rem; }
+    @media (max-width: 56.25em) {
+      .footer__end {
+        text-align: center;
+        padding: 2rem; } }
     .footer__end--p {
       font-family: 'Roboto', sans-serif;
       font-size: 1.2rem;
@@ -461,10 +481,17 @@ body {
   height: 88.5rem;
   width: 100%;
   padding: 3rem 14rem; }
+  @media (max-width: 37.5em) {
+    .section2 {
+      display: flex;
+      align-items: center; } }
   .section2 .specs {
     width: 55rem;
     height: 35rem;
     margin: 27rem auto 27rem 0; }
+    @media (max-width: 37.5em) {
+      .section2 .specs {
+        width: 35rem; } }
     .section2 .specs__heading {
       display: flex;
       align-items: center;
@@ -493,9 +520,13 @@ body {
   background-image: url(../images/girl.png);
   background-size: cover;
   background-position: top;
-  height: 88.5rem;
   width: 100%;
   padding: 3rem 14rem; }
+  @media (max-width: 37.5em) {
+    .section3 {
+      display: flex;
+      padding: 5rem;
+      text-align: center; } }
   .section3 .container {
     width: 56rem;
     margin: 24rem 31rem 23rem 60%;
@@ -503,6 +534,16 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: left; }
+    @media (max-width: 75em) {
+      .section3 .container {
+        margin: 24rem 31rem 23rem 45%; } }
+    @media (max-width: 56.25em) {
+      .section3 .container {
+        margin: 24rem 31rem 23rem 40%; } }
+    @media (max-width: 37.5em) {
+      .section3 .container {
+        margin: 24rem 31rem 23rem 30%;
+        display: flex; } }
     .section3 .container h2 {
       font-family: 'Oswald', sans-serif;
       font-weight: bold;
@@ -522,6 +563,9 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center; }
+    @media (max-width: 56.25em) {
+      .section4 .similar-products {
+        padding: 0; } }
     .section4 .similar-products__heading {
       display: flex;
       flex-direction: column;
@@ -541,6 +585,10 @@ body {
         width: 60rem; }
     .section4 .similar-products .products {
       display: flex; }
+      @media (max-width: 37.5em) {
+        .section4 .similar-products .products {
+          flex-direction: column;
+          align-items: center; } }
       .section4 .similar-products .products__item {
         display: flex;
         flex-direction: column;
@@ -551,12 +599,19 @@ body {
         .section4 .similar-products .products__item h3 {
           font-family: 'Oswald', sans-serif;
           font-weight: 700;
-          font-size: 3rem; }
+          font-size: 3rem;
+          text-align: center; }
+          @media (max-width: 75em) {
+            .section4 .similar-products .products__item h3 {
+              font-size: 1.8rem; } }
         .section4 .similar-products .products__item p {
           font-family: 'Oswald', sans-serif;
           font-size: 5rem;
           font-weight: 100;
           color: #FF9300; }
+          @media (max-width: 75em) {
+            .section4 .similar-products .products__item p {
+              font-size: 4rem; } }
 
 .order {
   background-color: #DFE3EB;
@@ -565,6 +620,9 @@ body {
   align-items: center;
   justify-content: center;
   padding: 10rem 14rem; }
+  @media (max-width: 75em) {
+    .order {
+      padding: 8rem 0; } }
   .order__heading {
     width: 46rem;
     margin-bottom: 5rem; }
@@ -577,10 +635,16 @@ body {
     display: flex;
     justify-content: left;
     align-items: center; }
+    @media (max-width: 56.25em) {
+      .order .form-group__image {
+        display: none; } }
     .order .form-group__form {
       display: flex;
       flex-direction: column;
       margin-left: 10rem; }
+      @media (max-width: 56.25em) {
+        .order .form-group__form {
+          margin-left: 0; } }
     .order .form-group__label {
       font-family: 'Roboto', sans-serif;
       font-size: 1.2rem;
