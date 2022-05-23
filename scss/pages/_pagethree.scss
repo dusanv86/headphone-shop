@@ -2,9 +2,14 @@
     background-image: url(../images/girl.png);
     background-size: cover;
     background-position: top;
-    height: 88.5rem;
     width: 100%;
     padding: 3rem 14rem;
+
+    @include respond(phone) {
+        display: flex;
+        padding: 5rem;
+        text-align: center;
+    }
     
     .container {
         width: 56rem;
@@ -13,6 +18,21 @@
         flex-direction: column;
         justify-content: center;
         align-items: left;
+
+        
+        @include respond(tab-land) {
+            margin: 24rem 31rem 23rem 45%;
+        }
+
+        @include respond(tab-port) {
+            margin: 24rem 31rem 23rem 40%;
+        }
+
+        @include respond(phone) {
+            margin: 24rem 31rem 23rem 30%;
+            display: flex;
+        }
+
 
         h2 {
             font-family: 'Oswald', sans-serif;
